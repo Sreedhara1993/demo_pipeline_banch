@@ -54,6 +54,9 @@ environment {
           		  steps {
           			      echo "Deploying to production environment..."
             			    // Add your production deployment steps here
+				  script {
+                   			 input message: "Proceed to Production?", ok: "Deploy"
+               			 }
            		 }
       		  }
  	   }
