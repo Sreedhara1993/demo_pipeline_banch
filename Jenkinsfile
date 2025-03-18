@@ -7,7 +7,7 @@ options {
 }
 
 environment {
-  PROJECT_NAME = "demo-multi"
+  PROJECT_NAME = "demo_pipeline_banch"
 }
 
         stages {
